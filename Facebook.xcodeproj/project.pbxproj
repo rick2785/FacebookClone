@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		208A361C1E38B82E00F3168B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A361B1E38B82E00F3168B /* AppDelegate.swift */; };
-		208A361E1E38B82E00F3168B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A361D1E38B82E00F3168B /* ViewController.swift */; };
-		208A36211E38B82E00F3168B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208A361F1E38B82E00F3168B /* Main.storyboard */; };
+		208A361E1E38B82E00F3168B /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A361D1E38B82E00F3168B /* FeedController.swift */; };
 		208A36231E38B82E00F3168B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208A36221E38B82E00F3168B /* Assets.xcassets */; };
 		208A36261E38B82E00F3168B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208A36241E38B82E00F3168B /* LaunchScreen.storyboard */; };
+		208A362E1E39832200F3168B /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A362D1E39832200F3168B /* CustomTabBarController.swift */; };
+		208A36301E39836300F3168B /* OtherControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A362F1E39836300F3168B /* OtherControllers.swift */; };
+		208A36321E3986A000F3168B /* single_post.json in Resources */ = {isa = PBXBuildFile; fileRef = 208A36311E3986A000F3168B /* single_post.json */; };
+		208A36341E3986AB00F3168B /* all_posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 208A36331E3986AB00F3168B /* all_posts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		208A36181E38B82E00F3168B /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		208A361B1E38B82E00F3168B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		208A361D1E38B82E00F3168B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		208A36201E38B82E00F3168B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		208A361D1E38B82E00F3168B /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
 		208A36221E38B82E00F3168B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		208A36251E38B82E00F3168B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		208A36271E38B82E00F3168B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208A362D1E39832200F3168B /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarController.swift; path = ../CustomTabBarController.swift; sourceTree = "<group>"; };
+		208A362F1E39836300F3168B /* OtherControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherControllers.swift; sourceTree = "<group>"; };
+		208A36311E3986A000F3168B /* single_post.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = single_post.json; sourceTree = "<group>"; };
+		208A36331E3986AB00F3168B /* all_posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = all_posts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				208A361B1E38B82E00F3168B /* AppDelegate.swift */,
-				208A361D1E38B82E00F3168B /* ViewController.swift */,
-				208A361F1E38B82E00F3168B /* Main.storyboard */,
+				208A361D1E38B82E00F3168B /* FeedController.swift */,
 				208A36221E38B82E00F3168B /* Assets.xcassets */,
 				208A36241E38B82E00F3168B /* LaunchScreen.storyboard */,
 				208A36271E38B82E00F3168B /* Info.plist */,
+				208A362D1E39832200F3168B /* CustomTabBarController.swift */,
+				208A362F1E39836300F3168B /* OtherControllers.swift */,
+				208A36311E3986A000F3168B /* single_post.json */,
+				208A36331E3986AB00F3168B /* all_posts.json */,
 			);
 			path = Facebook;
 			sourceTree = "<group>";
@@ -126,7 +135,8 @@
 			files = (
 				208A36261E38B82E00F3168B /* LaunchScreen.storyboard in Resources */,
 				208A36231E38B82E00F3168B /* Assets.xcassets in Resources */,
-				208A36211E38B82E00F3168B /* Main.storyboard in Resources */,
+				208A36321E3986A000F3168B /* single_post.json in Resources */,
+				208A36341E3986AB00F3168B /* all_posts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +147,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				208A361E1E38B82E00F3168B /* ViewController.swift in Sources */,
+				208A361E1E38B82E00F3168B /* FeedController.swift in Sources */,
 				208A361C1E38B82E00F3168B /* AppDelegate.swift in Sources */,
+				208A36301E39836300F3168B /* OtherControllers.swift in Sources */,
+				208A362E1E39832200F3168B /* CustomTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		208A361F1E38B82E00F3168B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				208A36201E38B82E00F3168B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		208A36241E38B82E00F3168B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
